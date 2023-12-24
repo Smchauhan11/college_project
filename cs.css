@@ -1,0 +1,91 @@
+/* Basic styling */
+header {
+    text-align:start;
+    text-size-adjust:initial;
+    background:#f9f9f9bf;
+   
+
+    text-wrap:wrap;
+    font:italic;
+  }
+  
+  header img {
+    max-width: 300px; /* Adjust the size as needed */
+    height: auto;
+    display:inline-block;
+    margin: 0 auto 20px; /* Center the logo */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('DSC_8516.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  }
+  .logo {
+    max-width: 100px; /* Set the maximum width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    /* Additional styling if needed */
+  }
+  
+  .wel {
+    font-size: 40px; 
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align-last: center;
+  }
+  nav ul {
+    list-style:decimal;
+    background: #f87503aa;
+    text-align:justify;
+    
+    margin: 0;
+  }
+  
+  nav ul li {
+    display:inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration:rgb(102, 77, 60);
+    padding: 10px 25px;
+  }
+  
+  nav ul li a:hover {
+    background: #000000;
+  }
+  
+  section {
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #63de94;
+    background: #5ac83cb6;
+  }
+  section {
+
+    display: flex;
+    color: #f9f9f9;
+    text-decoration: underline;
+    padding: 15px 35px;
+  }
+
+  
+    
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #05e6ff89;
+    color: #ffffff;
+    .address {
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+    }
+    .contact-details {
+      font-family: 'Times New Roman', Times, serif;
+  }
+  

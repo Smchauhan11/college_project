@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificate Application Form</title>
+  <style>
+    /* Basic styling for the form */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      resize: vertical;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Certificate Application Form</h1>
+  <form action="/submit_certificate_application" method="post">
+    <label for="full_name">Full Name:</label>
+    <input type="text" id="full_name" name="full_name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="certificate_type">Certificate Type:</label>
+    <select id="certificate_type" name="certificate_type" required>
+      <option value="">Select</option>
+      <option value="Bonafide Certificate">Bonafide Certificate</option>
+      <option value="Fee Reciept">Fee Reciept</option>
+      <!-- Add more certificate types -->
+    </select>
+
+    <label for="reason">Reason for Certificate:</label>
+    <textarea id="reason" name="reason" rows="4" required></textarea>
+
+    <input type="submit" value="Submit Application">
+  </form>
+</body>
+</html>
